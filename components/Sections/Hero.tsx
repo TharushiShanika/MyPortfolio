@@ -1,17 +1,17 @@
-import React from 'react';
 const Hero = () => {
   return <section className="relative w-full h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 to-indigo-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
-            Your Name
+            Shanika Ekanayake
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-600 mb-8">
-            Professional Title | Specialization
+          IT Undergraduate | BSc (Hons) in Information Technology (Specialized in Information Technology) | SLIIT
           </h2>
           <p className="max-w-2xl mx-auto text-gray-600 mb-8 text-lg">
-            A brief introduction about yourself and what you do. Highlight your
-            key skills and what makes you unique.
+          I'm Tharushi Shanika, a dedicated final-year IT undergraduate at SLIIT. I’m currently completing my BSc (Hons) Degree in Information Technology, 
+          specialized in core IT areas such as software development, systems analysis, and data management. I’m passionate about applying my knowledge to real-world projects and continuously 
+          improving my technical and problem-solving skills.
           </p>
           <button onClick={() => {
           const section = document.getElementById('about');

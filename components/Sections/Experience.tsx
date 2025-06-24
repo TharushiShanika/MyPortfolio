@@ -1,4 +1,3 @@
-import React from 'react';
 import ExperienceItem from '../UI/ExperienceItem';
 const Experience = () => {
   const experiences = [{
@@ -6,8 +5,7 @@ const Experience = () => {
     company: 'EWIS Career Training Centre',
     period: '(02/2024 -09/2024',
     description: ' Developed and customized WordPress websites,integrated WooCommerce and LearnPress, and optimized sitep erformance for various clients',
-    skills: ['Skill 1', 'Skill 2', 'Skill 3']
-  
+    skills: [], // Add an empty array or relevant skills here
   }];
   return <section id="experience" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">

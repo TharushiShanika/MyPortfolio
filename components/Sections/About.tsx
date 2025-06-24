@@ -1,4 +1,3 @@
-import React from 'react';
 const About = () => {
   return <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
@@ -9,7 +8,7 @@ const About = () => {
           <div className="md:w-1/3">
             <div className="rounded-lg overflow-hidden bg-gray-100 aspect-square">
               {/* Replace with your actual image */}
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Profile" className="w-full h-full object-cover" />
+              <img src="src\images\WhatsApp Image 2025-05-22 at 16.58.41.jpeg" />
             </div>
           </div>
           <div className="md:w-2/3">
@@ -24,22 +23,22 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-4">My Expertise</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold">Skill 1</h4>
+                <h4 className="font-semibold">Java</h4>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold">Skill 2</h4>
+                <h4 className="font-semibold">React</h4>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold">Skill 3</h4>
+                <h4 className="font-semibold">Wordpress</h4>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold">Skill 4</h4>
+                <h4 className="font-semibold">HTML5, CSS3, JavaScript</h4>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold">Skill 5</h4>
+                <h4 className="font-semibold">Git,GitHub</h4>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold">Skill 6</h4>
+                <h4 className="font-semibold">SqFirebase, MongoDB, MySQLl</h4>
               </div>
             </div>
             <p className="text-gray-700">
