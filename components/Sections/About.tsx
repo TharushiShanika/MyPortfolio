@@ -15,9 +15,11 @@ const About = () => {
           <div className="md:w-2/3">
             <h3 className="text-2xl font-bold mb-4">Who I Am</h3>
             <p className="text-gray-700 mb-6">
-              This is where you introduce yourself in more detail. Talk about
-              your background, education, and what led you to your current
-              professional path. Make it personal but professional.
+              I'm Shanika Ekanayake, an enthusiastic IT undergraduate at SLIIT, specializing in Information Technology. 
+             I have a strong interest in software development and UI/UX design.
+             With a solid foundation in languages like Java, Python, and PHP
+             I continuously seek to learn and apply new technologies to solve real-world problems. 
+             I’m passionate about creating innovative, user-centered digital solutions that make a meaningful impact
             </p>
             <h3 className="text-2xl font-bold mb-4">My Expertise</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
@@ -41,9 +43,7 @@ const About = () => {
               </div>
             </div>
             <p className="text-gray-700">
-              Add more details about your professional approach, philosophy, or
-              anything else that helps people understand what makes you unique
-              in your field.
+              
             </p>
           </div>
         </div>

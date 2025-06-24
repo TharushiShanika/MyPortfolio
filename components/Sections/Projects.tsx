@@ -1,34 +1,24 @@
-import React from 'react';
 import ProjectCard from '../UI/ProjectCard';
 const Projects = () => {
   const projects = [{
     title: 'Project One',
-    description: 'A brief description of the project, its purpose, and your role in it.',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-    tags: ['React', 'TypeScript', 'Tailwind CSS'],
-    liveLink: 'https://example.com',
-    githubLink: 'https://github.com/yourusername/project-one'
+    description: 'Integrated-Healthcare-System-for-Vulnerable-Populations-Leveraging-IOT-Machine-learning-',
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80',
+    technologies: ['React', 'FastAPI', 'Firebase'],
+    githubUrl: 'https://github.com/IT21171406/Final_Reserach.git',
+    liveUrl: 'https://drive.google.com/drive/folders/1tsDDs109avFW_6Vb_SGvDazvSNTH58s6?usp=sharing',
   }, {
     title: 'Project Two',
-    description: 'A brief description of the project, highlighting the technologies used and challenges overcome.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-    tags: ['Next.js', 'Node.js', 'MongoDB'],
-    liveLink: 'https://example2.com',
-    githubLink: 'https://github.com/yourusername/project-two'
+    description: ' A group project to develop an Education Management System',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80',
+    technologies: ['React', 'Springboot', 'MongoDB'],
+    githubUrl: 'https://github.com/IT21171406/ITP_PROJECT.git'
   }, {
     title: 'Project Three',
-    description: 'A brief description of what this project does and what problem it solves.',
-    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-    tags: ['React Native', 'Firebase', 'Redux'],
-    liveLink: 'https://example3.com',
-    githubLink: 'https://github.com/yourusername/project-three'
-  }, {
-    title: 'Project Four',
-    description: 'A brief description of what makes this project special or challenging.',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80',
-    tags: ['Vue.js', 'GraphQL', 'AWS'],
-    liveLink: 'https://example4.com',
-    githubLink: 'https://github.com/yourusername/project-four'
+    description: ' Led the development of a mobile application using Firebase, Kotlin, and Android Studio.',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+    technologies: ['Firebase', 'Kotlin', 'Android Studio'],
+    githubUrl: 'https://github.com/IT21171406/MediDonate_MAD.git'
   }];
   return <section id="projects" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
@@ -36,7 +26,17 @@ const Projects = () => {
           My Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => <ProjectCard key={index} title={project.title} description={project.description} image={project.image} tags={project.tags} liveLink={project.liveLink} githubLink={project.githubLink} />)}
+          {projects.map((project, index) => (
+            <ProjectCard
+              key={index}
+              title={project.title}
+              description={project.description}
+              image={project.image}
+              tags={project.technologies}
+              liveLink={project.liveUrl}
+              githubLink={project.githubUrl}
+            />
+          ))}
         </div>
       </div>
     </section>;
