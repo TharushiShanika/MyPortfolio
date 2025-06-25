@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3">
             <div className="rounded-lg overflow-hidden bg-gray-100 aspect-square">
-              <img src="/MyPortfolio/WhatsApp Image 2025-05-22 at 16.58.41.jpeg" alt="Profile" />
+              <img src="https://github.com/TharushiShanika/MyPortfolio/blob/main/public/WhatsApp%20Image%202025-05-22%20at%2016.58.41.jpeg" />
             </div>
           </div>
           <div className="md:w-2/3">
