@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3">
             <div className="rounded-lg overflow-hidden bg-gray-100 aspect-square">
-              {/* Replace with your actual image */}<img src="/MyPortfolio/WhatsApp Image 2025-05-22 at 16.58.41.jpeg" alt="Profile" />
+              {/* Replace with your actual image */}<img src="/MyPortfolio/WhatsApp Image 2025-05-22 at 16.58.41.jpeg"  />
             </div>
           </div>
           <div className="md:w-2/3">
