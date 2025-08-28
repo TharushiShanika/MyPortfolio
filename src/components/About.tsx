@@ -15,7 +15,6 @@ export const About = () => {
             I’m Tharushi Shanika, a passionate graduate in Information Technology from SLIIT. I hold a BSc (Hons) Degree in IT, 
             specialized in core areas such as software development, systems analysis, and data management. 
             I’m eager to apply my knowledge and skills to real-world projects, continuously enhancing my technical expertise, problem-solving ability, 
-            and innovation in the IT field.
             </p>
           </div>
         </div>
