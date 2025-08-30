@@ -6,7 +6,7 @@ export const Projects = () => {
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80',
     technologies: ['React', 'FastAPI', 'Firebase'],
     githubUrl: 'https://github.com/IT21171406/Final_Reserach.git',
-    liveUrl: 'https://drive.google.com/drive/folders/1tsDDs109avFW_6Vb_SGvDazvSNTH58s6?usp=sharing'
+    liveUrl: 'https://drive.google.com/file/d/1IrEVEWdnaJRBrQ252Cf2fmqATWGMGPNQ/view?usp=sharing'
   }, {
     title: 'Project Two',
     description: ' A group project to develop an Education Management System',
