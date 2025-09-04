@@ -28,6 +28,14 @@ export const Projects = () => {
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
     technologies: ['Firebase', 'Kotline', 'Android Studio'],
     githubUrl: 'https://github.com/IT21171406/MediDonate_MAD.git'
+  },{
+    title: 'Project Five',
+    description: ' UI/UX design and front-end development Landing page of Shoe Store using HTML, CSS',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+    technologies: ['Html', 'CSS'],
+    githubUrl: 'https://github.com/TharushiShanika/WixWebsite.git',
+        liveUrl:'https://tharushishanika.github.io/WixWebsite/',
+   
   }];
   return <section id="projects" className="py-16 md:py-24 bg-gray-50 w-full">
       <div className="container mx-auto px-4">
