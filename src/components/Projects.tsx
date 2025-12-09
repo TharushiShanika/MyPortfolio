@@ -28,8 +28,15 @@ export const Projects = () => {
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
     technologies: ['Firebase', 'Kotline', 'Android Studio'],
     githubUrl: 'https://github.com/IT21171406/MediDonate_MAD.git'
-  },{
+  },
+  {
     title: 'Project Five',
+    description: ' Led the development of a mobile application using Firebase,Kotlin, and Android Studio.',
+    image:  'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80',
+    technologies: ['WordPress', 'Elementor'],
+      liveUrl:'https://layali.lk/',
+  },{
+    title: 'Project Six',
     description: ' UI/UX design and front-end development Landing page of Shoe Store using HTML, CSS',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
     technologies: ['Html', 'CSS'],
