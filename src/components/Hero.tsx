@@ -16,7 +16,7 @@ export const Hero = () => {
             Contact Me
           </a>
         </div>
-        <a href="#about" className="flex justify-center mt-16 animate-bounce">
+        <a href="#about" className="flex justify-center mt-16 animate-bounce" aria-label="Scroll to about section">
           <ChevronDownIcon size={28} className="text-gray-600" />
         </a>
       </div>
