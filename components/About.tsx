@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 export const About = () => {
   return <section id="about" className="py-16 md:py-24 bg-white w-full">
       <div className="container mx-auto px-4">
@@ -8,7 +10,8 @@ export const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/3 flex justify-center">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-100">
-              <img src="src\components\my.jpeg" />
+              <img src="/my.jpeg" alt="Profile picture" />
+            </div>
             </div>
           </div>
           <div className="w-full md:w-2/3">
