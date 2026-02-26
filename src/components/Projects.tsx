@@ -8,7 +8,7 @@ export const Projects = () => {
         "A secure and intelligent healthcare platform integrating IoT devices, AI-powered symptom analysis, and real-time monitoring for vulnerable populations. Implemented role-based access control and smart alert filtering.",
       image:
         "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1172&q=80",
-      technologies: ["React", "FastAPI", "Firebase", "Machine Learning"],
+      technologies: ["React", "FastAPI", "Firebase", "Machine Learning","IOT"],
       githubUrl: "https://github.com/IT21171406/Final_Reserach.git",
       liveUrl:
         "https://drive.google.com/file/d/1IrEVEWdnaJRBrQ252Cf2fmqATWGMGPNQ/view?usp=sharing",
@@ -56,10 +56,8 @@ export const Projects = () => {
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1170&q=80",
       technologies: ["HTML", "CSS"],
-      githubUrl:
-        "https://github.com/TharushiShanika/WixWebsite.git",
-      liveUrl:
-        "https://tharushishanika.github.io/WixWebsite/",
+      githubUrl: "https://github.com/TharushiShanika/WixWebsite.git",
+      liveUrl: "https://tharushishanika.github.io/WixWebsite/",
     },
   ];
 
