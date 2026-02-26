@@ -18,30 +18,22 @@ export const ProjectCard = ({
   liveUrl,
 }: ProjectCardProps) => {
   return (
-    <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100">
-
+    <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 flex flex-col">
       {/* Image */}
       <div className="h-56 overflow-hidden relative">
         <img
           src={image}
-          alt={`${title} project thumbnail`}
+          alt={title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
-
-        {/* Overlay Effect */}
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition duration-300"></div>
       </div>
 
       {/* Content */}
-      <div className="p-6 flex flex-col justify-between h-full">
-        <div>
-          <h3 className="text-xl font-semibold text-gray-900 mb-3">
-            {title}
-          </h3>
-
-          <p className="text-gray-600 mb-5 leading-relaxed text-sm">
-            {description}
-          </p>
+      <div className="p-6 flex flex-col flex-grow">
+        <div className="flex-grow">
+          <h3 className="text-xl font-semibold text-gray-900 mb-3">{title}</h3>
+          <p className="text-gray-600 mb-5 leading-relaxed text-sm">{description}</p>
 
           {/* Tech Tags */}
           <div className="flex flex-wrap gap-2 mb-6">
@@ -57,7 +49,7 @@ export const ProjectCard = ({
         </div>
 
         {/* Buttons */}
-        <div className="flex gap-3 mt-auto">
+        <div className="flex gap-3">
           {githubUrl && (
             <a
               href={githubUrl}
