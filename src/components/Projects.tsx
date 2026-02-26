@@ -39,6 +39,7 @@ export const Projects = () => {
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1170&q=80",
       technologies: ["Firebase", "Kotlin", "Android Studio"],
       githubUrl: "https://github.com/IT21171406/MediDonate_MAD.git",
+      liveUrl: "https://www.linkedin.com/posts/shanika-ekanayake-641b9327b_this-is-our-second-year-group-project-of-activity-7080802980374974464-n7BQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERXJNEBeJEI8QtN8fd0sAOf-mqMegSi3CI",
     },
     {
       title: "Layali E-Commerce Website",
