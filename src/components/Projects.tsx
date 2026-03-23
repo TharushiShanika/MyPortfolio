@@ -65,7 +65,7 @@ export const Projects = () => {
   description:
     "A fully responsive fitness website designed in Figma and developed using React and Tailwind CSS. Features include a modern UI, reusable components, smooth scrolling, and a validated contact form.",
   image:
-    "https://images.unsplash.com/photo-1558611848-73f7eb4001ab?auto=format&fit=crop&w=1170&q=80",
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1172&q=80",
   technologies: ["React", "Tailwind CSS", "Figma"],
   features: [
     "Responsive design",
