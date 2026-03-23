@@ -60,6 +60,24 @@ export const Projects = () => {
       githubUrl: "https://github.com/TharushiShanika/WixWebsite.git",
       liveUrl: "https://tharushishanika.github.io/WixWebsite/",
     },
+    {
+  title: "Gym Promotional Website",
+  description:
+    "A fully responsive fitness website designed in Figma and developed using React and Tailwind CSS. Features include a modern UI, reusable components, smooth scrolling, and a validated contact form.",
+  image:
+    "https://images.unsplash.com/photo-1558611848-73f7eb4001ab?auto=format&fit=crop&w=1170&q=80",
+  technologies: ["React", "Tailwind CSS", "Figma"],
+  features: [
+    "Responsive design",
+    "Modern UI/UX",
+    "Contact form with validation",
+    "Reusable components",
+    "Smooth scrolling navigation"
+  ],
+  liveUrl: "https://tharushishanika.github.io/gym-website/",
+  githubUrl: "https://github.com/TharushiShanika/gym-website.git",
+  figmaUrl: "https://www.figma.com/design/z2hujLBDSJ466pNpqv4PjC/Gym?node-id=0-1&t=37mqc5Jq63hZPvwi-1"
+},
   ];
 
   return (
