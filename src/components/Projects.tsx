@@ -77,6 +77,21 @@ export const Projects = () => {
   liveUrl: "https://tharushishanika.github.io/gym-website/",
   githubUrl: "https://github.com/TharushiShanika/gym-website.git",
   figmaUrl: "https://www.figma.com/design/z2hujLBDSJ466pNpqv4PjC/Gym?node-id=0-1&t=37mqc5Jq63hZPvwi-1"
+},{
+  title: "Digital Marketing Website",
+  description:
+    "A modern digital marketing website designed in Figma with a clean, professional, and responsive UI/UX focused on creating an engaging digital agency experience.",
+  image:
+    "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1170&q=80",
+  technologies: ["Figma"],
+  features: [
+    "Responsive UI design",
+    "Modern UI/UX",
+    "Professional digital agency layout",
+    "Clean visual hierarchy",
+    "User-friendly navigation"
+  ],
+  figmaUrl: "https://www.figma.com/design/K1iUBfKT3uzOYTkfC0Et9N/Digital-Marketing-Agency?node-id=57-1499&p=f&t=MnaCkLfDEvfmGpE3-0"
 },
   ];
 
