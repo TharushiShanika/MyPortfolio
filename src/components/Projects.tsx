@@ -84,7 +84,7 @@ export const Projects = () => {
       image:
         "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1170&q=80",
       technologies: ["Figma"],
-      figmaUrl:
+      liveUrl:
         "https://www.figma.com/design/K1iUBfKT3uz0YTkfc0Et9N/Digital-Marketing-Website",
     },
   ];
